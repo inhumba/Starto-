@@ -16,49 +16,64 @@ Version: 1.0
 
 /* GENERAL */
 body {background: #fff;-webkit-font-smoothing: antialiased}
-p, li {color: #585050; font: 13px/1.4 Tahoma;margin: 0}
+p, li {color: #333; font: 13px/1.4 Tahoma;margin: 0}
 a {text-decoration: none}
 a:hover {text-decoration: none}
 h1, h2, h3, h4, h5, h6 {
-    color: #229c39;
-    font-family: "vanillaregular", Tahoma;
+    color: #00b6e0;
+    font-family: Tahoma;
+}
+.clear {
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
 }
 
-/* HEADER */
-header {background: #ddd;margin-bottom: 10px;padding-top: 10px;overflow: hidden}
-.logo {background: #ccc url(images/logo.png) no-repeat;float: left;width: 200px}
-.logo a {display: block;height: 100px;width: 200px}
+/* TOPBAR */
+.topbar {background: #eee;border-top: 3px solid #ddd;overflow: hidden;padding: 5px 0}
+.topbarnav-left {float: left}
+.topbarnav-left li {display: inline;margin-right: 10px}
+.topbarnav-left li a {color: #00b6e0;font: 13px Tahoma}
+.topbarnav-right {float: right}
+.topbarnav-right li {display: inline;margin-left: 10px}
+.topbarnav-right li a img {height: 13px;width: 13px}
 
-.toplink {float: right;margin: 23px 0 0 0;height: 39px}
-.toplink hgroup {float: left;margin-right: 5px;text-align: right}
-.toplink hgroup h5 {color: #7c7979; font-size: 25px;line-height: 16px}
-.toplink hgroup h6 {color: #006838!important;font-size: 18px!important;margin: 0!important}
-.toplink .social {float: left}
+/* HEADER */
+header {background: #ddd;height: 200px;margin-bottom: 20px;padding-top: 20px}
+.logo {background: url(images/img.png) repeat;float: left;margin: 10px 0 30px;width: 200px}
+.logo a {display: block;height: 100px;width: 200px;text-indent: -9999px}
+.headinfo {float: right;margin-top: 25px}
+.headinfo h4 {text-align: right}
+.headinfo img {height: 60px;width: 468px}
 
 .featured {background: url(images/featured-bg.png) no-repeat bottom center;float: left;height: 186px;width: 940px}
 .featured img {border-radius: 5px}
 
 /* NAVIGATION */
-.mainnav {background: url(images/mainnav-bg.png) no-repeat top center;clear: left;float: left;margin: 10px 0;width: 100%;height: 46px;}
-.mainnav li {display: inline;height: 28px}
-.mainnav li a {color: #797979;font: 20px/28px "vanillaregular", Tahoma;padding: 4px 27px 2px}
-.mainnav li a:hover {color: #146224}
-.mainnav .active a {background: #0ed632;color: #146224}
+.mainnav-wrapper {background: #00b6e0;height: 40px}
+.mainnav li a {color: #333;font: bold 13px/40px Tahoma;padding: 0 30px}
+.mainnav li a:hover {color: #fff}
+.mainnav .active a, .mainnav .active a:hover {background: #333;color: #fff}
 
-.footnav li {color: #fff;list-style: disc;margin-left: 15px}
-.footnav li a {color: #fff;display: block;font: 20px/20px "vanillaregular", Tahoma}
-.footnav li a:hover {color: #ccf8a3}
+.sf-menu li a:hover {background: #666;color: #fff}
+.sf-menu li li {background: #000}
+.sf-menu li li a {
+    border-top: 1px solid #444;
+    color: #fff;
+    font: 13px Tahoma;
+    line-height: auto;
+    height: auto;
+    margin: 0 15px;
+    padding: 10px 15px;
+}
+.sf-menu li li a:hover {background: none;color: #bbb}
 
-.sidenav {background: url(images/sidenav-bottom-bg.png) repeat-x bottom center;overflow: hidden;margin-bottom: 20px;padding-bottom: 15px;border-radius: 0 0 5px 5px}
-.sidenav h4 {background: url(images/sidehead-bg.png) repeat-x;color: #fff;font-size: 20px;line-height: 23px;padding-left: 10px;text-indent: -9999px;border-radius: 5px 5px 0 0}
-.sidenav li {list-style: none}
-.sidenav li a, .sidenav .hasdrop span {background: url(images/sidenav-bg.png) repeat-x;color: #006838;display: block;font: 20px/30px "vanillaregular", Tahoma;padding: 3px 0 0 20px}
-.sidenav li a:hover {background-position: 0 -33px;color: #fff}
-.sidenav li li {background: url(images/subsidenav-bg.png) repeat-x;height: 33px;list-style: none;padding-left: 20px}
-.sidenav li li a {background: url(images/bullet-sidenav.png) no-repeat left center;color: #2aee4d;padding-left: 15px}
-.sidenav li li a:hover {background: url(images/bullet-sidenav-hover.png) no-repeat left center}
-.sidenav .hasdrop span {background: url(images/sidenav-hasdrop-bg.png) no-repeat;cursor: pointer}
-.sidenav .hasdrop ul {display: none}
+.footnav {border-top: 1px solid #aaa;margin-top: 20px;padding-top: 20px;text-align: center} 
+.footnav li {display: inline;list-style: none;margin: 0 15px}
+.footnav li a {color: #00b6e0;font: 13px Tahoma}
 
 /* ASIDE */
 aside {float: left;width: 250px}
@@ -293,10 +308,10 @@ aside {float: left;width: 250px}
 .btn:hover {background: #fff;text-decoration: none}
 
 /* FOOTER */
-footer {background: #ccc;height: 200px}
-.box {float: left;margin: 20px 50px 0 0;width: 320px}
-.box h2 {color: #ccf8a3;font-size: 31px;margin-bottom: 10px}
-.box p {color: #fff;font: 18px/20px "vanillaregular", Tahoma}
+footer {background: #ccc;padding: 30px 0 20px;overflow: hidden}
+.columns {float: left;padding: 0 10px;width: 33.333%}
+.columns h3 {margin-bottom: 10px}
+.columns p {color: #fff;font: 13px Tahoma;margin-bottom: 10px}
 
 /* TO TOP */
 .totop {
