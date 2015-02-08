@@ -1,41 +1,46 @@
-.carousel ul {
-    list-style: none;
-    display: block;
-}
+.carousel ul {list-style: none;display: block}
 .carousel li {
     display: block;
     float: left;
-    height: 80px;
-    width: 200px;
-    margin: 0 5px;
+    height: 120px;
+    width: 260px;
+    margin: 0 20px;
     padding: 0;
 }
 .carousel a.prev, .carousel a.next {
-    width: 11px;
-    height: 22px;
+    width: 16px;
+    height: 25px;
     display: block;
     position: absolute;
-    top: 30px;
+    top: 50px;
     z-index: 99;
 }
 .carousel a.prev {
     left: 5px;
     background: url(../images/arrow-left.png) 0 0 no-repeat;
-    transition: left 0.12s linear;
 }
 .carousel a.prev:hover {
-    left: 3px;
-    background-position: 0 -22px;
+    background-position: 0 -25px;
 }
 .carousel a.next {
     right: 5px;
     background: url(../images/arrow-right.png) 0 0 no-repeat;
-    transition: right 0.12s linear;
 }
 .carousel a.next:hover {
-    right: 3px;
-    background-position: 0 -22px;
+    background-position: 0 -25px;
 }
-.carousel a.prev span, .carousel a.next span {
-    display: none;
+.carousel a.prev span, .carousel a.next span {display: none}
+
+.carousel-pagination {margin-top: 10px;text-align: center}
+.carousel-pagination a {
+	background: url(../images/pagination.png) no-repeat;
+	width: 22px;
+	height: 22px;
+	margin: 0;
+	display: inline-block;
 }
+.carousel-pagination a.selected {
+	background-position: 0 -22px;
+	cursor: default;
+}
+.carousel-pagination a span {display: none}

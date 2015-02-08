@@ -10,21 +10,20 @@
 		<meta name="robots" content="all" />
 		<meta name="description" content="" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="stylesheet" href="css/normalize.min.css" />
         <link rel="stylesheet" href="plugin/nivoslider/themes/default/default.css" />
         <link rel="stylesheet" href="plugin/nivoslider/css/nivo-slider.css" />
         <link rel="stylesheet" href="plugin/carouFredSel/css/carouFredSel.css" />
         <link rel="stylesheet" href="css/superfish.css" />
 		<link rel="stylesheet" href="style.css" />
-        <link rel="icon" href="favicon.ico" type="image/ico" />
+        <link rel="icon" href="favicon.png" type="image/png" />
 		<script src="js/modernizr.custom.2.6.2.min.js"></script>
 	</head>
 	<body class="full-layout home">
         <div class="wrapper">
 <!-- TOP BAR -->
-            <div class="topbar">
+            <section class="topbar">
                 <div class="grid">
-                    <nav class="topbarnav-left">
+                    <nav class="topbarnav left">
                         <ul>
                             <li><a href="" title="">Link 1</a></li>
                             <li><a href="" title="">Link 2</a></li>
@@ -32,7 +31,7 @@
                             <li><a href="" title="">Link 4</a></li>
                         </ul>
                     </nav>
-                    <nav class="topbarnav-right">
+                    <nav class="topbarnav right">
                         <ul>
                             <li><a href="" title=""><img src="images/img.png" alt="" /></a></li>
                             <li><a href="" title=""><img src="images/img.png" alt="" /></a></li>
@@ -44,19 +43,19 @@
                         </ul>
                     </nav>
                 </div>
-            </div>
+            </section>
 <!-- END TOP BAR -->
 <!-- HEADER -->
-            <header>
+            <header class="header">
                 <div class="grid">
                     <h1 class="logo"><a href="" title="">LOGO</a></h1>
-                    <div class="headinfo">
+                    <section class="headinfo">
                         <h4>Header Info Text</h4>
                         <img src="images/img.png" alt="">
-                    </div>
+                    </section>
 <!-- MAIN MENU -->
                     <div class="clear"></div>   
-                        <div class="mainnav-wrapper">
+                        <section class="mainnav-wrapper">
                             <nav class="mainnav">
                                 <ul class="sf-menu">
                                     <li class="active"><a href="" title="">Home</a></li>
@@ -89,104 +88,95 @@
                                     <li><a href="" title="">Menu 6</a></li>
                                 </ul>
                             </nav>
-                        </div>
+                        </section>
 <!-- END MAIN MENU -->
-<!-- SLIDER >
-                    <div class="slider">
-                        <div class="slider-wrapper theme-default">
-                            <div id="slider" class="nivoSlider">
-                                <img src="uploads/slide-660x260-1.jpg" />
-                                <img src="uploads/slide-660x260-2.jpg" />
-                                <img src="uploads/slide-660x260-3.jpg" />
-                            </div>
-                        </div>
-                    </div>
-< END SLIDER -->
                 </div>
             </header>
 <!-- END HEADER -->
 <!-- CONTAINER -->
             <div class="container">
+<!-- SLIDER -->
+                <section class="slider">
+                    <div class="grid">
+                        <div class="slider-wrapper theme-default">
+                            <div id="slider" class="nivoSlider">
+                                <img src="uploads/img.jpg" alt="" />
+                                <img src="uploads/img.jpg" alt="" />
+                                <img src="uploads/img.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+<!-- END SLIDER -->
                 <div class="grid">
-<!-- SIDEBAR >
-                    <aside>
-<!-- TOP SIDEBAR BANNER >
-                        <div class="topsidebanner">
-                            <a href="" title=""><img src="uploads/banner-250x125-1.jpg" alt="" /></a>
-                            <a href="" title=""><img src="uploads/banner-250x80.jpg" alt="" /></a>
-                        </div>
-<!-- END TOP SIDEBAR BANNER -->
-<!-- LOGIN >
-                        <div class="login-panel">
-                            <h4>ระบบสมาชิก</h4>
-                            <form action="">
-                                <label>username</label>
-                                <input type="text" name="username" />
-                                <label>password</label>
-                                <input type="password" name="password" />
-                                <button>Login</button>
-                                <a href="" title="สมัครสมาชิก">สมัครสมาชิก</a>
-                            </form>
-                        </div>
-<!-- END LOGIN -->
-<!-- VIDEO >
-                        <div class="videochannel">
-                            <h4>วีดีโอ</h4>
-                            <div class="channel">
-                                <iframe width="250" height="188" src="//www.youtube.com/embed/togmpPRthBY" frameborder="0" allowfullscreen></iframe>
-                                <h3>Srikrung <span>Channel</span></h3>
-                            </div>
-                            <ul>
-                                <li><a href="" title="">รายการ Smart franchise</a></li>
-                                <li><a href="" title="">รายการแฟรนไชส์สร้างอาชีพ</a></li>
-                                <li><a href="" title="">รายการชี้ช่องรวย สุดสัปดาห์</a></li>
-                                <li><a href="" title="">รายการแฟรนไชส์สร้างอาชีพ2</a></li>
-                                <li><a href="" title="">SMEs ชี้ช่องรวย</a></li>
-                            </ul>
-                        </div>
-<!-- END VIDEO -->
-<!-- BOTTOM SIDEBAR BANNER >
-                        <div class="bottomsidebanner">
-                            <a href="" title=""><img src="uploads/banner-250x100-1.jpg" alt="" /></a>
-                            <a href="" title=""><img src="uploads/banner-250x100-2.jpg" alt="" /></a>
-                            <a href="" title=""><img src="uploads/banner-250x100-3.jpg" alt="" /></a>
-                        </div>
-<!-- END BOTTOM SIDEBAR BANNER >
-                    </aside>
-<!-- END SIDEBAR -->
-<!-- CONTENT >
-                    <div class="content">
-<!-- PROMOTION >
-                        <div class="promotion shadowbg">
-                            <hgroup class="title">
-                                <h2>Srikrung <span>โปรโมชั่น</span></h2>
-                                <h6><a class="viewall" href="" title="ดูทั้งหมด">ดูทั้งหมด</a></h6>
-                            </hgroup>
-                            <div class="entry">
-                                <a href="" title=""><img src="uploads/pic-60x60-1.jpg" alt="" /></a>
-                                <h3><a href="" title="">ประกันภัย รถยนต์ 0% 12 เดือน</a></h3>
-                                <p>พิเศษสุดจากกรุงเทพประกันภัย ด้วยการออกแพคเกจ "กระบะลูกพ่อ" สำหรับประกันภัยประเภท 1 ด้วยเบี้ยประกันภัยราคาเดียว</p>
-                            </div>
-                            <div class="entry">
-                                <a href="" title=""><img src="uploads/pic-60x60-2.jpg" alt="" /></a>
-                                <h3><a href="" title="">ประกันภัย รถยนต์ 0% 12 เดือน</a></h3>
-                                <p>พิเศษสุดจากกรุงเทพประกันภัย ด้วยการออกแพคเกจ "กระบะลูกพ่อ" สำหรับประกันภัยประเภท 1 ด้วยเบี้ยประกันภัยราคาเดียว</p>
-                            </div>
-                        </div>
-<!-- END PROMOTION -->
-<!-- CAROUSEL >
-                        <div class="carousel">
-                            <ul id="carousel">
-                                <li><a href="" title=""><img src="uploads/banner-200x80-1.jpg" /></a></li>
-                                <li><a href="" title=""><img src="uploads/banner-200x80-2.jpg" /></a></li>
-                                <li><a href="" title=""><img src="uploads/banner-200x80-3.jpg" /></a></li>
-                                <li><a href="" title=""><img src="uploads/banner-200x80-4.jpg" /></a></li>
-                            </ul>
-                            <a id="prev" class="prev" href="#"></a>
-                            <a id="next" class="next" href="#"></a>
-                        </div>
+<!-- CAROUSEL -->
+                    <section class="carousel">
+                        <ul id="carousel">
+                            <li><a href="" title=""><img src="uploads/img.jpg" /></a></li>
+                            <li><a href="" title=""><img src="uploads/img.jpg" /></a></li>
+                            <li><a href="" title=""><img src="uploads/img.jpg" /></a></li>
+                            <li><a href="" title=""><img src="uploads/img.jpg" /></a></li>
+                        </ul>
+                        <a id="prev" class="prev" href="#"></a>
+                        <a id="next" class="next" href="#"></a>
+                        <div class="carousel-pagination" id="carousel-pagination"></div>
+                    </section>
 <!-- END CAROUSEL -->
-                        <div class="newsannouncement shadowbg">
+<!-- CONTENT -->
+                    <div class="content-wrapper">
+                        <div class="content left bd">
+<!-- BLOG -->
+                            <section class="blog">
+                                <h2>Content Header</h2>
+                                <h6><a class="viewall" href="" title="ดูทั้งหมด">ดูทั้งหมด</a></h6>
+                                <article class="entry">
+                                    <div class="thumb">
+                                        <a href="" title=""><img src="uploads/img.jpg" alt="" /></a>
+                                    </div>
+                                    <header>
+                                        <h3><a href="" title="">Title</a></h3>
+                                        <div class="meta">
+                                            In <a href="" title="">Category</a>
+                                            <time pubdate="pubdate">Jan 1, 2013</time>
+                                            <a href="" title="">10 Comments</a>
+                                        </div>
+                                    </header>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, sed, quo, delectus.<span><a href="" title="">read more</a></span></p>
+                                </article>
+                                <article class="entry">
+                                    <div class="thumb">
+                                        <a href="" title=""><img src="uploads/img.jpg" alt="" /></a>
+                                    </div>
+                                    <header>
+                                        <h3><a href="" title="">Medium Medium Title</a></h3>
+                                        <div class="meta">
+                                            In <a href="" title="">Category</a>
+                                            <time pubdate="pubdate">Jan 1, 2013</time>
+                                            <a href="" title="">10 Comments</a>
+                                        </div>
+                                    </header>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, sed, quo, delectus.<span><a href="" title="">read more</a></span></p>
+                                </article>
+                                <article class="entry">
+                                    <div class="thumb">
+                                        <a href="" title=""><img src="uploads/img.jpg" alt="" /></a>
+                                    </div>
+                                    <header>
+                                        <h3><a href="" title="">Long Long Title Long Long Title Long Title</a></h3>
+                                        <div class="meta">
+                                            In <a href="" title="">Category</a>
+                                            <time pubdate="pubdate">Jan 1, 2013</time>
+                                            <a href="" title="">10 Comments</a>
+                                        </div>
+                                    </header>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, sed, quo, delectus.<span><a href="" title="">read more</a></span></p>
+                                </article>
+                            </section>
+<!-- END BLOG -->
+                        </div>
+                        <div class="content right bd">
+                        </div>
+                        <!--div class="newsannouncement shadowbg">
 <!-- NEWS >
                             <div class="news">
                                 <hgroup class="title">
@@ -218,42 +208,48 @@
                                 </ul>
                                 <a class="viewall" href="" title="ดูทั้งหมด">ดูทั้งหมด</a>
                             </div>
-<!-- END ANNOUNCEMENT >
-                        </div>
+<!-- END ANNOUNCEMENT -->
                     </div>
-<!-- END CONTENT >
+<!-- END CONTENT -->
                 </div>
             </div>
 <!-- END CONTAINER -->
         </div>
 <!-- FOOTER -->
-        <footer>
+        <footer class="footer">
             <div class="grid">
                 <div class="columns">
-                    <h3>Footer Header</h3>
+                    <h3>Footer Info Text</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, unde, eaque, omnis totam impedit sequi provident quis dolor obcaecati accusamus repellat earum perferendis tempora inventore error laborum deserunt ut dicta.</p>
                     <p>Soluta, unde, eaque, omnis totam impedit sequi provident quis dolor obcaecati accusamus repellat earum perferendis tempora.</p>
                 </div>
                 <div class="columns">
-                    <h3>Footer Header</h3>
+                    <h3>Footer Info Text</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, unde, eaque, omnis totam impedit sequi provident quis dolor obcaecati accusamus repellat earum perferendis tempora inventore error laborum deserunt ut dicta.</p>
                 </div>
                 <div class="columns">
-                    <h3>Footer Header</h3>
+                    <h3>Footer Info Text</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde, eaque.</p>
                 </div>
-                <div class="clear"></div>
-                <nav class="footnav">
+            </div>
+        </footer>
+        <div class="footnav-wrapper">
+            <div class="grid">
+                <div class="footinfo left">
+                    <p>Copyright &copy; All Right Reserved.</p>
+                </div>
+                <nav class="footnav right">
                     <ul>
                         <li><a href="" title="">Footer Link 1</a></li>
                         <li><a href="" title="">Footer Link 2</a></li>
                         <li><a href="" title="">Footer Link 3</a></li>
-                        <li><a href="" title="">Footer Link 4</a></li>
-                        <li><a href="" title="">Footer Link 5</a></li>
+                        <li><a href="" title=""><img src="images/img.png" alt="" /></a></li>
+                        <li><a href="" title=""><img src="images/img.png" alt="" /></a></li>
+                        <li><a href="" title=""><img src="images/img.png" alt="" /></a></li>
                     </ul>
                 </nav>
             </div>
-        </footer>
+        </div>
         <a class="totop" href="#" title="Back to Top">Back to Top</a>
 <!-- END FOOTER -->
     <script src="js/jquery-1.10.2.min.js"></script>
