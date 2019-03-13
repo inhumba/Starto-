@@ -1,13 +1,92 @@
 /* ==========================================================================
-   CSS
+	CSS
    ========================================================================== */
 
 /**
  * CONTENTS
  *
  *
+ * VENDORS // framework ที่ใช้
+ *
+ *
+ * SETTINGS // variable กับ setting ต่างๆ
+ *
+ *
+ * TOOLS // mixins กับ functions
+ *
+ *
+ * GENERIC // reset และ normalize
+ *
+ *
+ * ELEMENTS // HTML tag ที่ไม่มี class หรือค่า default ของแต่ละ tag
+ *
+ *
+ * OBJECTS // กว้าง ยาว สูง margin padding float position ค่าตำแหน่งของมัน no cosmetic
+ *
+ *
+ * COMPONENTS // UI cosmetic มีแต่ class ไม่ใช้ id
+ *
+ *
+ * THEMES // สำหรับปรับแต่งตีม
+ *
+ *
+ * UTILITIES // ตัวช่วยอื่นๆ ส่วนมากจะมี !important
+ *
+ *
+ * CHECKER // สำหรับการเช็คต่างๆ
+ *
  *
  */
 
-// IMPORT
-// @import ""; 
+
+
+// VENDORS
+// @import "0-vendors/"; 
+
+
+
+// SETTINGS
+// @import "1-settings/";
+
+
+
+// TOOLS
+// @import "2-tools/";
+
+
+
+// GENERIC
+// @import "3-generic/";
+
+
+
+// ELEMENTS
+// @import "4-elements/";
+
+
+
+// OBJECTS
+// @import "5-objects/";
+
+
+
+// COMPONENTS
+// @import "6-components/";
+
+
+
+// THEMES
+// @import "7-themes/";
+
+
+
+// UTILITIES
+// @import "8-utilities/";
+
+
+
+// CHECKER
+// @import "9-checker/";
+
+
+

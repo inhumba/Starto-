@@ -36,6 +36,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/script/main.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/script/main.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/assets/style/stylesheet.css": {
 		"aP": 1,
 		"bl": 0,
@@ -54,12 +65,188 @@
 		"oAP": "/assets/style/stylesheet.css.map",
 		"oF": 0
 		},
-	"/assets/vendors/.keep": {
+	"/assets/vendors/bootstrap/css/bootstrap-grid.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/css/bootstrap-grid-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/vendors/bootstrap/css/bootstrap-grid.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/vendors/.keep",
+		"oAP": "/assets/vendors/bootstrap/css/bootstrap-grid.css.map",
+		"oF": 0
+		},
+	"/assets/vendors/bootstrap/css/bootstrap-grid.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/css/bootstrap-grid.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/vendors/bootstrap/css/bootstrap-grid.min.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/css/bootstrap-grid.min.css.map",
+		"oF": 0
+		},
+	"/assets/vendors/bootstrap/css/bootstrap-reboot.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/css/bootstrap-reboot-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/vendors/bootstrap/css/bootstrap-reboot.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/css/bootstrap-reboot.css.map",
+		"oF": 0
+		},
+	"/assets/vendors/bootstrap/css/bootstrap-reboot.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/css/bootstrap-reboot.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/vendors/bootstrap/css/bootstrap-reboot.min.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/css/bootstrap-reboot.min.css.map",
+		"oF": 0
+		},
+	"/assets/vendors/bootstrap/css/bootstrap.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/css/bootstrap-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/vendors/bootstrap/css/bootstrap.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/css/bootstrap.css.map",
+		"oF": 0
+		},
+	"/assets/vendors/bootstrap/css/bootstrap.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/css/bootstrap.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/vendors/bootstrap/css/bootstrap.min.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/css/bootstrap.min.css.map",
+		"oF": 0
+		},
+	"/assets/vendors/bootstrap/js/bootstrap.bundle.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/js/bootstrap.bundle-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/assets/vendors/bootstrap/js/bootstrap.bundle.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/js/bootstrap.bundle.js.map",
+		"oF": 0
+		},
+	"/assets/vendors/bootstrap/js/bootstrap.bundle.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/js/bootstrap.bundle.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/assets/vendors/bootstrap/js/bootstrap.bundle.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/js/bootstrap.bundle.min.js.map",
+		"oF": 0
+		},
+	"/assets/vendors/bootstrap/js/bootstrap.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/js/bootstrap-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/assets/vendors/bootstrap/js/bootstrap.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/js/bootstrap.js.map",
+		"oF": 0
+		},
+	"/assets/vendors/bootstrap/js/bootstrap.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/js/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/assets/vendors/bootstrap/js/bootstrap.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/js/bootstrap.min.js.map",
 		"oF": 0
 		},
 	"/pug/master/base.pug": {
@@ -135,6 +322,86 @@
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
+		},
+	"/src/scss/0-vendors/.keep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/scss/0-vendors/.keep",
+		"oF": 0
+		},
+	"/src/scss/1-settings/.keep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/scss/1-settings/.keep",
+		"oF": 0
+		},
+	"/src/scss/2-tools/.keep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/scss/2-tools/.keep",
+		"oF": 0
+		},
+	"/src/scss/3-generic/.keep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/scss/3-generic/.keep",
+		"oF": 0
+		},
+	"/src/scss/4-elements/.keep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/scss/4-elements/.keep",
+		"oF": 0
+		},
+	"/src/scss/5-objects/.keep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/scss/5-objects/.keep",
+		"oF": 0
+		},
+	"/src/scss/6-components/.keep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/scss/6-components/.keep",
+		"oF": 0
+		},
+	"/src/scss/7-themes/.keep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/scss/7-themes/.keep",
+		"oF": 0
+		},
+	"/src/scss/8-utilities/.keep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/scss/8-utilities/.keep",
+		"oF": 0
+		},
+	"/src/scss/9-checker/.keep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/scss/9-checker/.keep",
+		"oF": 0
 		},
 	"/src/scss/stylesheet.scss": {
 		"aP": 0,
