@@ -65,189 +65,35 @@
 		"oAP": "/assets/style/stylesheet.css.map",
 		"oF": 0
 		},
-	"/assets/vendors/bootstrap/css/bootstrap-grid.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/css/bootstrap-grid-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/assets/vendors/bootstrap/css/bootstrap-grid.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/css/bootstrap-grid.css.map",
-		"oF": 0
-		},
-	"/assets/vendors/bootstrap/css/bootstrap-grid.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/css/bootstrap-grid.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/assets/vendors/bootstrap/css/bootstrap-grid.min.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/css/bootstrap-grid.min.css.map",
-		"oF": 0
-		},
-	"/assets/vendors/bootstrap/css/bootstrap-reboot.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/css/bootstrap-reboot-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/assets/vendors/bootstrap/css/bootstrap-reboot.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/css/bootstrap-reboot.css.map",
-		"oF": 0
-		},
-	"/assets/vendors/bootstrap/css/bootstrap-reboot.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/css/bootstrap-reboot.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/assets/vendors/bootstrap/css/bootstrap-reboot.min.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/css/bootstrap-reboot.min.css.map",
-		"oF": 0
-		},
-	"/assets/vendors/bootstrap/css/bootstrap.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/css/bootstrap-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/assets/vendors/bootstrap/css/bootstrap.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/css/bootstrap.css.map",
-		"oF": 0
-		},
-	"/assets/vendors/bootstrap/css/bootstrap.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/css/bootstrap.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/assets/vendors/bootstrap/css/bootstrap.min.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/css/bootstrap.min.css.map",
-		"oF": 0
-		},
-	"/assets/vendors/bootstrap/js/bootstrap.bundle.js": {
+	"/assets/vendors/bootstrap/bootstrap.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/js/bootstrap.bundle-min.js",
+		"oAP": "/assets/vendors/bootstrap/bootstrap.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/assets/vendors/bootstrap/js/bootstrap.bundle.js.map": {
+	"/assets/vendors/bootstrap/bootstrap.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/js/bootstrap.bundle.js.map",
+		"oAP": "/assets/vendors/bootstrap/bootstrap.min.js.map",
 		"oF": 0
 		},
-	"/assets/vendors/bootstrap/js/bootstrap.bundle.min.js": {
+	"/assets/vendors/jquery/jquery.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/js/bootstrap.bundle.min-min.js",
+		"oAP": "/assets/vendors/jquery/jquery.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/assets/vendors/bootstrap/js/bootstrap.bundle.min.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/js/bootstrap.bundle.min.js.map",
-		"oF": 0
-		},
-	"/assets/vendors/bootstrap/js/bootstrap.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/js/bootstrap-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/assets/vendors/bootstrap/js/bootstrap.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/js/bootstrap.js.map",
-		"oF": 0
-		},
-	"/assets/vendors/bootstrap/js/bootstrap.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/js/bootstrap.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/assets/vendors/bootstrap/js/bootstrap.min.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/vendors/bootstrap/js/bootstrap.min.js.map",
-		"oF": 0
 		},
 	"/pug/master/base.pug": {
 		"cB": 0,
@@ -323,13 +169,15 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/src/scss/0-vendors/.keep": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/src/scss/0-vendors/bootstrap/bootstrap.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "/src/scss/0-vendors/.keep",
-		"oF": 0
+		"oAP": "/src/scss/0-vendors/bootstrap/bootstrap-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/src/scss/1-settings/.keep": {
 		"cB": 0,
