@@ -1,0 +1,101 @@
+doctype html
+html(lang="th")
+
+
+	head
+		//-//- Page Title
+		block title
+			title Default Title
+
+
+		//-//- Base Meta
+		meta(charset="utf-8")
+		meta(http-equiv="x-ua-compatible", content="ie=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		meta(name="theme-color", content="#fff")
+		meta(name="author", content="Page Author")
+
+
+		//-//- Custom Meta
+		block custom-meta
+
+
+		//-//- Font Style
+		//- link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Maitree:300,500,600&subset=thai")
+
+
+		//-//- Main Style
+		//- link(rel="stylesheet", href="assets/style/stylesheet.css")
+
+
+		//-//- Custom Style
+		block custom-style
+
+
+		//-//- Favicon
+		link(rel="icon", type="image/png", href="assets/img/favicon.png")
+
+
+		//-//- For IE
+		<!--[if IE]>
+			script(async, defer, src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js")
+			//- link(rel="stylesheet", href="assets/style/ie.css")
+		<![endif]-->
+
+
+		//-//- Header Script
+		include ../script/header-script.js
+
+
+		//-//- Custom Header Script
+		block custom-header-script
+
+
+
+	//-//- Body
+	block body
+		include bodyclass.pug
+
+		//-//- Page Wrapper
+		#page.site-wrapper
+
+
+
+			//-//- Header
+			header#masthead.site-header
+				h1 header
+
+
+
+			//-//- Main Content
+			#content.site-content
+
+
+				//-//- Primary Content
+				#primary.content-area
+					main#main.site-main
+						h1 main
+
+				//-//- Secondary Content
+				aside#secondary.sidebar-area
+					h1 sidebar
+
+
+
+			//-//- Footer
+			footer#colophon.site-footer
+				h1 footer
+
+
+
+		//-//- Main Script
+		block script
+			include ../script/master-script.js
+
+
+		</body>
+		
+
+		//-//- Custom Script
+		block custom-script
+	

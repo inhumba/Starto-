@@ -1,0 +1,265 @@
+//-//- Use Master Template Base
+extends master/base.pug
+
+
+//-//- Page Title
+block title
+	title Elements
+
+
+//-//- Custom Meta
+block custom-meta
+	meta(name="description", content="Page description")
+
+
+//-//- Custom Style
+block custom-style
+
+
+//-//- Custom Header Script
+block custom-header-script
+
+
+//-//- Body
+block body
+	- var bodyClass= ''; // body class
+	include master/bodyclass.pug
+
+
+		//-//- Page Wrapper
+		#page.site-wrapper.o--wrapper
+ 
+			//-//- Header
+			header#masthead.site-header
+				h1.u--text-align--center Template
+				hr
+
+
+			//-//- Main Content
+			#content.site-content
+
+
+				//-//- Primary Content
+				#primary.content-area
+					main#main.site-main
+						
+						article
+							p It is considered to have begun with Gutenberg and the development of moveable type. Typography is the art, design, and arrangement of text. It is as much about what you don’t do with your type as what you do.
+
+							h1 Header One
+							p Auris vehicula vel quam ac porta. Quisque pulvinar sodales velit ac pharetra. Sed malesuada tellus lectus, quis ultrices justo tristique at. Nam enim elit venenatis non augue.
+
+							p พรีเมียร์เมี่ยงคำวันเวย์ล็อบบี้ วืดก๊วนแอ็คชั่น รีทัชสวีทหลวงปู่ แฟร์แจ็กพ็อตบ๊อบแซนด์วิชเฟรม ไกด์เฟรชเท็กซ์ ฮอตสจ๊วต ทำงานซาดิสต์เพลซเคลื่อนย้าย ช็อปเปอร์ มาร์จินท็อปบูตเยนแอปพริคอทเทเลกราฟ ควีนเนิร์สเซอรี่ แหววคอนแทค ริกเตอร์ โคโยตี ฟิวเจอร์แฟนตาซีแจ็กเก็ตเกย์ ไวอะกร้าวีซ่า โมหจริตรัมตังค์
+
+							h2 Header Two
+							p แคมปัสรัมบาลานซ์ตุ๋ย กฤษณ์ทอล์คเมคอัพแครอท เฮอร์ริเคนราเม็ง ซูเปอร์ เวอร์เอ็กซ์โป พาร์ทเนอร์นู้ด ปัจเจกชนคอร์รัปชั่นลามะ ซัพพลายเออร์หลวงตาป๊อปแมกกาซีนสะกอม โซนี่กับดักบุ๋น บุ๋นภควัทคีตาอัลบั้มตื้บรองรับ พรีเซ็นเตอร์ซิ้มตรวจสอบซาฟารี อุตสาหการบ๊อบจอหงวนควิก ผ้าห่มงี้ กราวนด์ แอ๊บแบ๊วซูฮกจูนแรงผลัก เวิร์ลด์
+
+							h3 Header Three
+							p Auris vehicula vel quam ac porta. Quisque pulvinar sodales velit ac pharetra. Sed malesuada tellus lectus, quis ultrices justo tristique at. Nam enim elit venenatis non augue. Auris vehicula vel quam ac porta. Quisque pulvinar sodales velit ac pharetra. Sed malesuada tellus lectus, quis ultrices justo tristique at. Nam enim elit venenatis non augue.
+
+							h4 Header Four
+							p Auris vehicula vel quam ac porta. Quisque pulvinar sodales velit ac pharetra. Sed malesuada tellus lectus, quis ultrices justo tristique at. Nam enim elit venenatis non augue. Auris vehicula vel quam ac porta. Quisque pulvinar sodales velit ac pharetra. Sed malesuada tellus lectus, quis ultrices justo tristique at. Nam enim elit venenatis non augue.
+
+							h5 Header Five
+							p Auris vehicula vel quam ac porta. Quisque pulvinar sodales velit ac pharetra. Sed malesuada tellus lectus, quis ultrices justo tristique at. Nam enim elit venenatis non augue. Auris vehicula vel quam ac porta. Quisque pulvinar sodales velit ac pharetra. Sed malesuada tellus lectus, quis ultrices justo tristique at. Nam enim elit venenatis non augue.
+
+							h6 Header Six
+							p Auris vehicula vel quam ac porta. Quisque pulvinar sodales velit ac pharetra. Sed malesuada tellus lectus, quis ultrices justo tristique at. Nam enim elit venenatis non augue. Auris vehicula vel quam ac porta. Quisque pulvinar sodales velit ac pharetra. Sed malesuada tellus lectus, quis ultrices justo tristique at. Nam enim elit venenatis non augue.
+
+							hr
+
+							p In mollis elit lorem, <a href="#">vitae pellentesque erat maximus vitae.</a> Maecenas vel laoreet diam. Pellentesque ullamcorper ligula metus, vel aliquet nisi viverra non. Nam mauris neque, venenatis quis tempus ac, placerat sit amet ipsum.
+
+							p พรีเมียร์เมี่ยงคำวันเวย์ล็อบบี้ วืดก๊วนแอ็คชั่น รีทัชสวีทหลวงปู่ แฟร์แจ็กพ็อตบ๊อบแซนด์วิชเฟรม ไกด์เฟรชเท็กซ์ ฮอตสจ๊วต ทำงานซาดิสต์เพลซเคลื่อนย้าย ช็อปเปอร์ มาร์จินท็อปบูตเยนแอปพริคอทเทเลกราฟ ควีนเนิร์สเซอรี่ แหววคอนแทค ริกเตอร์ โคโยตี ฟิวเจอร์แฟนตาซีแจ็กเก็ตเกย์ ไวอะกร้าวีซ่า โมหจริตรัมตังค์
+
+							p: mark You can use the mark tag to highlight text.
+
+							p: del This line of text is meant to be treated as deleted text.
+
+							p: s This line of text is meant to be treated as no longer accurate.
+
+							p: ins This line of text is meant to be treated as an addition to the document.
+
+							p: strong This line of text will render as strong text.
+							p: b This line of text will render as bold text.
+
+							p: em This line of text will render as italic text.
+
+							p: u This line of text will render as underlined.
+
+							p: small This line of text will render as small text.
+							p: big This line of text will render as big text.
+
+							hr
+
+							p Blockquotes are set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size font.
+
+							blockquote
+								p Blockquotes are set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size font. Design is not just what it looks like and feels like. Design is how it works
+								p Blockquotes are set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation
+								cite Author name here, Role/department
+
+							hr
+
+							p Lists are used to group related pieces of information together, so they are clearly associated with each other and easy to read.
+
+							dl
+								dt Definition List Title
+								dd Definition list division.
+								dt Startup
+								dd A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
+								dt #dowork
+								dd Coined by Rob Dyrdek and his personal body guard Christopher &#8220;Big Black&#8221; Boykins, &#8220;Do Work&#8221; works as a self motivator, to motivating your friends.
+
+							ul
+								li List item one
+								li List item two
+								li List item three
+								li List item four
+								ul
+									li List item one
+									ul
+										li List item one
+										li List item two
+										li List item three
+										li List item four
+									li List item two
+									li List item three
+									li List item four
+
+							ol
+								li List item one
+								li List item two
+								li List item three
+								li List item four
+								ol
+									li List item one
+									ol
+										li List item one
+										li List item two
+										li List item three
+										li List item four
+									li List item two
+									li List item three
+									li List item four
+
+							hr
+
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab qui hic officiis explicabo animi voluptate quam facere, molestias distinctio autem, odio illum. Id quos dolorum sit accusamus, hic dolor ratione minus distinctio nulla voluptate rerum expedita sequi, deserunt accusantium labore consequatur ipsa voluptatibus cupiditate quia corporis mollitia. Quae, sint, officiis.
+
+							figure
+								img(src="https://via.placeholder.com/1200x600" alt="Always specify alt text")
+								figcaption Caption this image
+							
+							figure
+								picture
+									source(srcset="https://via.placeholder.com/1200x600" media="(min-width: 1024px)")
+									source(srcset="https://via.placeholder.com/1024x500" media="(min-width: 768px)")
+									source(srcset="https://via.placeholder.com/768x350" media="(min-width: 425px)")
+									img(src="https://via.placeholder.com/425x200" alt="Always specify alt text")
+								figcaption Caption this image
+
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ullam fugiat voluptatem, nesciunt quam at eaque quidem error facere cupiditate nam, corrupti consequatur, pariatur. Labore cupiditate, accusamus ex tempora at laborum ipsum minus voluptatibus. Neque sequi recusandae in quisquam natus quis maxime maiores ullam quo laudantium aut, iste reiciendis cum, voluptas tempore quidem eius cupiditate quasi iusto adipisci voluptatibus. Iste, molestias. Omnis vel architecto, nisi culpa quisquam quos officiis voluptas pariatur fuga alias qui expedita, dolores exercitationem harum nemo, quis id? Unde, recusandae blanditiis id. Sit praesentium nobis, corporis tempora esse delectus reiciendis quia illum cupiditate. Id, vitae rem magni distinctio. Ratione rerum totam, dicta! Ex saepe eligendi explicabo obcaecati atque iste accusantium a dignissimos nihil ipsum unde et magnam excepturi dolore quos aut vel quia, modi doloribus distinctio magni repellendus. Illo officia iste laudantium quas, voluptas commodi cum eligendi voluptatum debitis esse odio tempora et facere sit maxime omnis nobis sed voluptate quidem expedita aspernatur nihil. A enim ab ad dolorum error doloribus quasi exercitationem, dolorem nostrum esse molestias sunt, omnis corrupti facere, corporis quae at totam quam quas laborum quod illum doloremque laboriosam. Rerum itaque dicta facilis quae, sit deserunt commodi nulla! Repellendus, quod nam dignissimos atque rerum.
+
+							p พรีเมียร์เมี่ยงคำวันเวย์ล็อบบี้ วืดก๊วนแอ็คชั่น รีทัชสวีทหลวงปู่ แฟร์แจ็กพ็อตบ๊อบแซนด์วิชเฟรม ไกด์เฟรชเท็กซ์ ฮอตสจ๊วต ทำงานซาดิสต์เพลซเคลื่อนย้าย ช็อปเปอร์ มาร์จินท็อปบูตเยนแอปพริคอทเทเลกราฟ ควีนเนิร์สเซอรี่ แหววคอนแทค ริกเตอร์ โคโยตี ฟิวเจอร์แฟนตาซีแจ็กเก็ตเกย์ ไวอะกร้าวีซ่า โมหจริตรัมตังค์
+
+							hr
+
+							table
+								caption A useful description of what is in this table
+								thead
+									tr
+										th #
+										th Theme Name
+										th Theme Type
+										th Theme Price
+								tbody
+									tr
+										th(scope="row") 1
+										td Anemone
+										td Magazine
+										td $79
+									tr
+										th(scope="row") 2
+										td  Dicot
+										td  Magazine
+										td  $89
+									tr
+										th(scope="row") 3
+										td  Candela
+										td  Portfolio
+										td  $79
+									tr
+										th(scope="row") 4
+										td  Wedding
+										td  Wedding
+										td  $75
+									tr
+										th(scope="row") 5
+										td  Axon
+										td  Blog
+										td  $75
+								tfoot
+									tr
+										td(colspan="3")  Summary
+										td  $459
+											
+							hr
+
+							form
+
+								fieldset
+
+									legend Legend
+
+									label Input <abbr class="required" title="required">*</abbr>
+									input(type="text", placeholder="input")
+
+									label Select <abbr class="required" title="required">*</abbr>
+									select
+										option option 1
+										option option 2
+										option option 3
+
+									label Textarea <abbr class="required" title="required">*</abbr>
+									textarea(placeholder="textarea")
+
+									label
+										input(type="radio", name="radio", checked)
+										| A
+									label
+										input(type="radio", name="radio")
+										| B
+
+									label
+										input(type="checkbox", name="checkbox", checked)
+										| A
+									label
+										input(type="checkbox", name="checkbox")
+										| B
+
+									label File
+									input(type="file")
+
+									button(type="button") Button
+
+
+				//-//- Secondary Content
+				aside#secondary.sidebar-area
+					//- h1 sidebar
+
+
+			//-//- Footer
+			footer#colophon.site-footer
+				//- h1 footer
+
+
+		//-//- Main Script
+		block script
+			include script/master-script.js
+
+		</body>
+
+		//-//- Custom Script
+		block custom-script
+			
